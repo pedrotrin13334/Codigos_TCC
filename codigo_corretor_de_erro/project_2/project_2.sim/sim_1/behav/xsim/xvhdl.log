@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PedroHenrique/Documents/Projeto_TCC/TCC/Base.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Base
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PedroHenrique/Documents/Projeto_TCC/TCC/Teste.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Teste

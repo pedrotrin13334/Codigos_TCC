@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.58f on Tue Jun 19 19:34:47 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "str_out<0>" LOCATE = SITE "T12" LEVEL 1;
+COMP "str_out<1>" LOCATE = SITE "V12" LEVEL 1;
+COMP "str_out<2>" LOCATE = SITE "N10" LEVEL 1;
+COMP "str_out<3>" LOCATE = SITE "P11" LEVEL 1;
+COMP "str_out<4>" LOCATE = SITE "M10" LEVEL 1;
+COMP "str_out<5>" LOCATE = SITE "N9" LEVEL 1;
+COMP "str_out<6>" LOCATE = SITE "U11" LEVEL 1;
+COMP "str_out<7>" LOCATE = SITE "V11" LEVEL 1;
+COMP "sig" LOCATE = SITE "T5" LEVEL 1;
+PIN sig_pin<0> = BEL "sig" PINNAME PAD;
+PIN "sig_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

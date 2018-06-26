@@ -1,0 +1,77 @@
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 
+xst -intstyle ise -ifn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.xst" -ofn "C:/Users/PedroHenrique/Documents/Projeto_TCC/Teste_v2/driver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf_driver.ucf -p xc6slx16-csg324-2 driver.ngc driver.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o driver_map.ncd driver.ngd driver.pcf 
+par -w -intstyle ise -ol high -mt off driver_map.ncd driver.ncd driver.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml driver.twx driver.ncd -o driver.twr driver.pcf -ucf ucf_driver.ucf 
+bitgen -intstyle ise -f driver.ut driver.ncd 

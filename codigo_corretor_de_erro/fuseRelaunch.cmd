@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/PedroHenrique/Documents/Projeto_TCC/TCC/Teste_isim_beh.exe" -prj "C:/Users/PedroHenrique/Documents/Projeto_TCC/TCC/Teste_beh.prj" "work.Teste" 

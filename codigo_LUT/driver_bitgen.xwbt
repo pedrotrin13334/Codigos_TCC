@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\PedroHenrique\Documents\Projeto_TCC\Teste_v2\driver.ncd
+OUTFILE=C:\Users\PedroHenrique\Documents\Projeto_TCC\Teste_v2\driver.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\PedroHenrique\Documents\Projeto_TCC\Teste_v2
+LICENSE=WebPack
+USER_INFO=__0_0_0
